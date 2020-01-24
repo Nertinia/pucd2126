@@ -175,7 +175,7 @@ function setup() {
 	paths = outline.paths;
 	boundingBox = {x: outline.xMin, y: outline.yMin, w: outline.xMax - outline.xMin, h: outline.yMax - outline.yMin};
 	getWalls();
-	floodSize = 0.5 * Math.max(windowWidth, windowHeight);
+	floodSize = Math.max(windowWidth, windowHeight);
 }
 
 function getFlood(pos, levels) {
