@@ -1,0 +1,69 @@
+@font-face {
+  font-family: "Neue";
+  src: url("assets/Neue-Regular.otf");
+}
+@font-face {
+  font-family: "Neue Bold";
+  src: url("assets/Neue-Bold.otf");
+}
+@font-face {
+  font-family: "Neue Black";
+  src: url("assets/Neue-Bold.otf");
+}
+body {
+  font-family: "Neue", Fallback, sans-serif;
+  position: absolute;
+  width: 21.6cm;
+  padding-left: 2cm;
+  padding-top: 2cm;
+  padding-right: 2cm;
+  padding-bottom: 2cm;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+@media only screen and (max-width: 25.6cm) {
+  body {
+    position: relative;
+    width: 21.6cm;
+    min-height: 27.9cm;
+    padding-left: 2cm;
+    padding-top: 2cm;
+    padding-right: 2cm;
+    padding-bottom: 2cm;
+    left: 0%;
+    transform: translate(0%, 0%);
+  }
+}
+h1 {
+  font-family: "Neue Black", Fallback, sans-serif;
+  margin-top: 1cm;
+  font-size: 18;
+}
+h2 {
+  font-family: "Neue Bold", Fallback, sans-serif;
+  margin-top: 0.5cm;
+  margin-bottom: 0cm;
+  font-size: 16;
+}
+h3 {
+  margin-top: 0cm;
+  font-size: 14;
+}
+strong {
+  font-family: "Neue Bold", Fallback, sans-serif;
+}
+h3.schedule {
+  margin-left: 30px;
+}
+table {
+  border-collapse: collapse;
+  border-style: hidden;
+  font-size: 14;
+}
+tr {
+  border: none;
+}
+td {
+  border-right: 1px solid rgb(200, 200, 200);
+  padding: 0px 20px;
+}
