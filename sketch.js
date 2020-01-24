@@ -276,7 +276,7 @@ function mouseClicked() {
 
 function mouseWheel(event) {
 	let minWindowSize = Math.min(windowWidth, windowHeight);
-	floodSize = Math.max(50, Math.min(minWindowSize, floodSize + Math.max(-10, Math.min(10, event.delta))));
+	floodSize = Math.max(100, Math.min(minWindowSize, floodSize + Math.max(-10, Math.min(10, event.delta))));
 }
 
 function keyPressed() {
